@@ -100,4 +100,4 @@ const handleCategoryChange = (node) => {
       }
       body.innerHTML +=container;
     })
-}//kot
+}
