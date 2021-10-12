@@ -10,7 +10,7 @@ function signup (){
     var y = document.getElementById("password").value;
     document.getElementById("password-display").innerHTML = "You entered the password: " + y;
     var z = document.getElementById("confirmPassword").value;
-    document.getElementById("confirmPassword-display").innerHTML = "You entered the password confirmation: " + z;
+    document.getElementById("confirmPassword-display").innerHTML = "You enter the password confirmation: " + z;
 
 }
 
