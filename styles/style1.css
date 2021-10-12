@@ -1,0 +1,17 @@
+.relative-container {
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 18px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 30px;
+    right: 250px;
+    font-size: 18px;
+  }

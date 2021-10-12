@@ -1,0 +1,13 @@
+
+.container {
+    position: relative;
+	width: 300px;
+	margin: auto;
+}
+.chat {
+    position: absolute;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	background: #f1f0e8;
+}

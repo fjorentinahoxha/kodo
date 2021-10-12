@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log in</title>
+<link rel="stylesheet" href="./styles/loginStyle.css"> </link>
+
+</head>
+<body>
+    <script src="./index.js"></script>
+    <div class="container">
+        <div class="login-container">
+            <!-- Titulli i Formes-->
+            <div>
+                <h3>Login Form</h3>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Email Address" id='email' name="email"> <br>
+                <input type="password" placeholder="Password" id = 'password' name="password" value="">
+            </div>
+            <p style="color: red; font-size: 10px; margin-left: 15px;">Forgot password?</p>
+            <div class="btn-group">
+                <input class="btn" type="submit" name="LogIn" onclick="login()" value="Login">
+                <input class="btn" type="submit" name="SignUn" onclick="singupLg()" value="Signup">
+            </div>
+            <p style="color: red; font-size: 10px; margin-left: 80px;">Not a member? Signup now</p>
+        </div>
+    </div>
+    <p id="email-display"></p>
+    <p id="password-display"></p>
+    
+</body>
+
+</html>
